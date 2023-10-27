@@ -1,0 +1,29 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Painel Hub | HackeScripterX 👑", HidePremium = false, SaveConfig = true, IntroEnabled = false})
+
+local plrTab = Window:MakeTab({
+	Name = "Painel Hub ",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+	
+})plrTab:AddButton({
+	Name = "[ 🎃 UPD] Blade Ball",
+	Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/qx5XvKG7'),true))()
+  	end    
+})
+
+
+plrTab:AddButton({
+	Name = "[ 🥋 UPD] Parkour Ninja",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/1XHKiMzR"))()
+  	end    
+})
+
+plrTab:AddButton({
+	Name = "[ ⭕ UPD] Last to Leave",
+	Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/xUvxbKnR'),true))()
+  	end    
+}
