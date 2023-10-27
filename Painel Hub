@@ -6,7 +6,9 @@ local plrTab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 	
-})plrTab:AddButton({
+})
+
+plrTab:AddButton({
 	Name = "[ 🎃 UPD] Blade Ball",
 	Callback = function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/qx5XvKG7'),true))()
@@ -26,4 +28,4 @@ plrTab:AddButton({
 	Callback = function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/xUvxbKnR'),true))()
   	end    
-}
+})
